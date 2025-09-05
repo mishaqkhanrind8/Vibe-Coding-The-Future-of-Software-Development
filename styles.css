@@ -32,6 +32,7 @@ h1 {
 .bg-dark {
   background-color: rgba(0,0,0, 0.8);
   padding: 3px 2px;
+  color: #fff;
 }
 
 img {
