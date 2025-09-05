@@ -87,6 +87,10 @@ display: flex;
 gap: 10px;
 }
 
+.flex-container:hover {
+  background-color: #f1f1f1;
+}
+
 .flex-container div:first-of-type {
   width: 25%;
 }
