@@ -78,6 +78,12 @@ section h2, section h3, section p {
   margin-left: 10px;
 }
 
+.btn-sec {
+  display: flex;
+  flex-direction: row;
+  gap: 10px
+}
+
 footer {
   color: #fff;
 background-color: #616161 !important;
