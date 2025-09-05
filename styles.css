@@ -92,7 +92,7 @@ padding: 0 10px 1rem;
 }
 
 .flex-container div:hover {
-  background-color: #d1d1d1;
+  background-color: #ccc;
 }
 
 .flex-container div:first-of-type {
