@@ -148,11 +148,14 @@ padding: 0 10px 1rem;
   padding: 10px;
 }
 
-
 footer {
   color: #fff;
 background-color: #616161 !important;
   padding: 2rem 0.5rem;
+}
+
+.buttons {
+  padding: 10px;
 }
 
 footer p a {
