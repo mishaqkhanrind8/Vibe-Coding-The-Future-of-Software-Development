@@ -66,7 +66,7 @@ section h2, section h3, section p {
   display: block;
   color: #000;
   text-decoration: none;
-  padding: 10px;
+  padding: 5px 10px;
 }
 
 footer {
