@@ -76,7 +76,7 @@ section h2, section h3, section p {
   background-color: #555;
 }
 
-.btn-sec {
+div.btn-sec {
   display: flex;
   flex-direction: row;
   gap: 10px;
@@ -84,7 +84,7 @@ section h2, section h3, section p {
   margin-bottom: 10px;
 }
 
-.btn-sec div {
+div.btn-sec div {
   padding: 10px;
 }
 
