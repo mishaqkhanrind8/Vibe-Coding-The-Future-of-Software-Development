@@ -84,7 +84,6 @@ padding: 0 10px 1rem;
 
 .flex-container {
   display: flex;
-  gap: 10px;
 }
 
 .flex-container div {
@@ -100,6 +99,10 @@ padding: 0 10px 1rem;
 
 .flex-container div:first-of-type {
   width: 25%;
+}
+
+.flex-container div:last-of-type {
+  width: 75%;
 }
 
 .tags div {
