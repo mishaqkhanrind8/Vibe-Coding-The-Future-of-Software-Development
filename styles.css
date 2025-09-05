@@ -82,6 +82,11 @@ section h2, section h3, section p {
 padding: 0 10px 1rem;
 }
 
+.flex-container {
+display: flex;
+gap: 10px;
+}
+
 .tags div {
   padding: 10px;
 }
