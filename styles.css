@@ -87,6 +87,7 @@ section h2, section h3, section p {
   justify-content: space-between;
   gap: 10px;
   margin-bottom: 10px;
+  align-items: center;
 }
 
 .btn-sec > div {
