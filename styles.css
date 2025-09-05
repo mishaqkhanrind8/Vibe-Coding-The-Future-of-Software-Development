@@ -45,6 +45,10 @@ img {
   width: min(1200px, 100%);
 }
 
+.highlight p {
+padding: 0 0 1rem;
+}
+
 .container {
   display: flex;
   flex-direction: row;
