@@ -69,6 +69,12 @@ section h2, section h3, section p {
   padding: 3px 5px;
 }
 
+.btn-more {
+  display: block;
+  color: #000;
+  padding: 8px 14px;
+}
+
 footer {
   color: #fff;
 background-color: #616161 !important;
