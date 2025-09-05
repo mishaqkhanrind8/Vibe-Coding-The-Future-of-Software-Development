@@ -37,6 +37,10 @@ h1 {
   font-size: 1.2rem;
 }
 
+h3 span {
+color: #eee;
+}
+
 img {
   width: min(1200px, 100%);
 }
