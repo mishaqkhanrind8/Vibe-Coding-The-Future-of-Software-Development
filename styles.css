@@ -81,6 +81,7 @@ section h2, section h3, section p {
   flex-direction: row;
   gap: 10px;
   justify-content: space-between;
+  margin-bottom: 10px;
 }
 
 .btn-sec div {
