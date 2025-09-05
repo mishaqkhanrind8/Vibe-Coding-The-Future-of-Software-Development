@@ -45,10 +45,6 @@ img {
   width: min(1200px, 100%);
 }
 
-.heighlight p {
-padding: 0 0 1rem;
-}
-
 .container {
   display: flex;
   flex-direction: row;
@@ -79,7 +75,11 @@ article, .heighlight, .popular-posts, .tags {
 }
 
 section h2, section h3, section p {
-  padding: 0 10px !important;
+  padding: 0 10px ;
+}
+
+.heighlight p {
+padding: 0 10px 1rem;
 }
 
 .tags div {
