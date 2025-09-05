@@ -70,7 +70,6 @@ section h2, section h3, section p {
 }
 
 .btn-more {
-  display: inline-block;
   color: #fff;
   padding: 8px 14px;
   text-decoration: none;
