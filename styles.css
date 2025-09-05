@@ -80,14 +80,11 @@ section h2, section h3, section p {
   display: flex;
   flex-direction: row;
   gap: 10px;
+  justify-content: space-between;
 }
 
 .btn-sec div {
   padding: 10px;
-}
-
-.comments {
-  float: right;
 }
 
 footer {
