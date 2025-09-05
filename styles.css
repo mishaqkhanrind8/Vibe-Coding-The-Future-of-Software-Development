@@ -17,11 +17,12 @@ body {
 h1, h2, h3, h4 {
   font-family: 'Playfair Display', serif;
   font-weight: 400;
+  line-height: 1.8;
 }
 
 header {
   text-align: center;
-  margin: 3.5rem auto;
+  margin: 2.2rem auto;
 }
 
 h1 {
@@ -30,7 +31,6 @@ h1 {
 
 img {
   width: min(1200px, 100%);
-  border-radius: 5px;
 }
 
 .container {
@@ -39,19 +39,35 @@ img {
   gap: 10px;
 }
 
-main, 
+main {
+  width: 67%;
+  padding: 10px;
+}
+
 aside {
-  padding: 14px;
+  width: 33%;
+  padding: 10px;
+}
+
+section {
+  margin-bottom: 2rem;
 }
 
 footer {
-  text-align: center;
-  background-color: #f1f1f1;
+  color: #fff;
+background-color: #616161 !important;
   padding: 2rem 0.5rem;
+}
+
+footer p a {
+  color: #fff;
 }
 
 @media only screen and (max-width: 600px) {
   .container {
     flex-direction: column;
+  }
+  main, aside {
+    width: 100%;
   }
 }
