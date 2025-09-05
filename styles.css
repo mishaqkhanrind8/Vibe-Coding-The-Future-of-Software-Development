@@ -158,6 +158,14 @@ background-color: #616161 !important;
   padding: 10px;
 }
 
+.previous {
+  padding: 8px 12px;
+}
+
+.next {
+  padding: 8px 12px;
+}
+
 footer p a {
   color: #fff;
 }
