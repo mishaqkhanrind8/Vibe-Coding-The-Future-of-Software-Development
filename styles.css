@@ -1,8 +1,8 @@
 *, ::after, ::before {
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 
 body {
@@ -19,3 +19,39 @@ h1, h2, h3, h4 {
   font-weight: 400;
 }
 
+header {
+  text-align: center;
+  margin: 3.5rem auto;
+}
+
+h1 {
+  line-height: 2.1;
+}
+
+img {
+  width: min(1200px, 100%);
+  border-radius: 5px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+main, 
+aside {
+  padding: 14px;
+}
+
+footer {
+  text-align: center;
+  background-color: #f1f1f1;
+  padding: 2rem 0.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+}
