@@ -69,7 +69,7 @@ section h3 {
   font-size: 1.1rem;
 }
 
-article, .heighlight, .popular-posts, .tags {
+article, .highlight, .popular-posts, .tags {
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
    margin-bottom: 1.5rem;
 }
@@ -78,7 +78,7 @@ section h2, section h3, section p {
   padding: 0 10px ;
 }
 
-.heighlight p {
+.highlight p {
 padding: 0 10px 1rem;
 }
 
