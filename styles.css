@@ -56,7 +56,7 @@ main {
   padding: 10px;
 }
 
-p {
+p, a {
   color: #d1d1d1;
 }
 
