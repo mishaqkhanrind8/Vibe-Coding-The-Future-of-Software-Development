@@ -27,7 +27,6 @@ header {
 
 h1 {
   line-height: 2.1;
-  color: orangered;
   font-size: 3rem;
 }
 
@@ -55,6 +54,10 @@ img {
 main {
   width: 67%;
   padding: 10px;
+}
+
+p {
+  color: #d1d1d1;
 }
 
 aside {
