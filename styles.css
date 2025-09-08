@@ -1,5 +1,6 @@
 :root {
   /* ==== Theme Colors ==== */
+  --border-color: rgba(85, 85, 85, 0.4);
   --heading-color: #2C3E50;
   --text-color: #2C2C2C;
   --secondary-text: #aaa;
@@ -34,7 +35,7 @@ body {
   width: 100%;
 }
 
-h1, h2, {
+h1, h2 {
   font-family: 'Playfair Display', serif;
   font-weight: 400;
   line-height: 1.5;
@@ -43,6 +44,7 @@ h1, h2, {
 }
 
 article h3 {
+  font-family: 'Playfair Display', serif;
   color: var(--heading-color);
   font-weight: 400;
   margin: 0.8rem auto;
@@ -124,6 +126,7 @@ section {
 }
 
 section h3 {
+  font-family: 'Playfair Display', serif;
   font-size: 1.1rem;
 }
 
@@ -187,7 +190,7 @@ article, .highlight, .popular-posts, .tags {
   color: var(--bg-dark-circle);
   padding: 8px 14px;
   text-decoration: none;
-  border: 1px solid var(--bg-dark-circle);
+  border: 1px solid var(--border-color);
   border-radius: 5px;
   display: inline-block;
 }
@@ -205,6 +208,8 @@ article, .highlight, .popular-posts, .tags {
 /* Hover */
 .btn-more:hover {
   background-color: #ccc;
+  border: none;
+  color: var(--bg-dark-circle);
 }
 
 .btn-more:active {
@@ -231,6 +236,13 @@ article, .highlight, .popular-posts, .tags {
   padding: 10px 0;
 }
 
+.active {
+  display: inline-block;
+  background-color: var(--bg-dark-circle);
+  color: var(--btn-text-color) !important;
+  padding: 12px 24px;
+}
+
 footer {
   color: var(--footer-text-color) !important;
   background-color: var(--bg-footer) !important;
@@ -247,18 +259,23 @@ footer p {
 }
 
 .previous {
-  padding: 8px 12px;
+ padding: 12px 24px;
   border: none;
   color: #f1f1f1;
   border-radius: 5px;
 }
 
 .next {
-  padding: 8px 16px;
-  color: #f1f1f1;
+  padding: 12px 24px;
+  color: #fff;
   background-color: var(--btn-bg-alt);
   border: none;
   border-radius: 5px;
+}
+
+.next:hover {
+  background-color: var(--secondary-text);
+  color: #000;
 }
 
 footer p a {
