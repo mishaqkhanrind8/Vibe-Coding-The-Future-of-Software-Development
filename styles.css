@@ -287,4 +287,9 @@ footer p a {
   display: none;
 }
 
+.img-container {
+  width: 100%;
+  height: 180px;
+}
+
 }
