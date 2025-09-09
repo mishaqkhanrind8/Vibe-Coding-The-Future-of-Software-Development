@@ -1,5 +1,5 @@
 {
-  "name":"Vibe Coding Blog",
+  "name": "Vibe Coding Blog",
   "short_name": "Vibe Coding",
   "description": "Vibe Coding Blog is a Blog template website and PWA App created by Muhammad Ishaq Khan",
   "id": "/",
@@ -9,7 +9,6 @@
   "orientation": "portrait",
   "background_color": "#fff",
   "theme_color": "#000",
-  "orientation": "portrait",
   "icons": [
     {
       "src": "assets/android-chrome-192x192.png",
