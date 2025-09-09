@@ -109,7 +109,7 @@ width: 100%;
 
 main {
   width: 67%;
-  padding: 10px;
+  padding: 1rem;
 }
 
 p {
@@ -118,7 +118,7 @@ p {
 
 aside {
   width: 33%;
-  padding: 10px;
+  padding: 1rem;
 }
 
 section {
