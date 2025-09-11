@@ -16,4 +16,4 @@ Built with **HTML5, CSS3, and JavaScript**, this template is responsive, lightwe
 
 ---
 
-## 📂 Project Structure
+## 📂 Project Structure 
